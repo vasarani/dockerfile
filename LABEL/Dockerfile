@@ -2,6 +2,6 @@
 FROM almalinux:9
 LABEL COURSE="Docker" \
       TRAINER="SivaKumar" \
-      DURATION="150"  
-
+      DURATION="150"  \
+      AUTHER="joindevops"
 
