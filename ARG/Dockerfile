@@ -5,5 +5,7 @@ ARG COURSE="Docker" \
       TRAINER="SivaKumar" \
       DURATION="150"  \
       AUTHER="joindevops"
-RUN echo "Trainer is: ${TRAINER}"
+RUN echo "Trainer is: ${TRAINER}, version is: ${version} "
 CMD [ "sleep", "200" ]      
+
+#Arg variables can't be accessed inside container, they are accessible only at the time of image building. ENV variables can be accessed in container.
